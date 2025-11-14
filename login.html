@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>VivaMundo — Login</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Montserrat:wght@400;600&family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="auth-page">
+  <header class="topbar minimal">
+    <div class="brand">
+      <a href="index.html" class="logo-link"><img id="site-logo" src="image 1.png" alt="Logo VivaMundo" class="logo-img" style="width: 150px;height:150px"></a>
+    </div>
+  </header>
+  
+  <main class="main auth-main">
+    <div class="auth-container">
+      <div class="auth-banner">
+        <img src="" class="banner-img" alt="Viagem incrível">
+      </div>
+      
+      <section class="auth-card card">
+        <h1 class="auth-title">Bem-vindo de volta</h1>
+        <p class="auth-subtitle">Entre na sua conta para continuar</p>
+        
+        <form id="login-form" class="auth-form">
+          <div class="form-group">
+            <label>Email</label>
+            <input type="email" id="login-email" required placeholder="seu@email.com">
+          </div>
+          
+          <div class="form-group">
+            <label>Senha</label>
+            <input type="password" id="login-pass" required placeholder="Sua senha">
+          </div>
+          
+          <button class="btn primary full" type="submit">Entrar</button>
+          
+          <div class="auth-links">
+            <a href="#forgot" class="text-link">Esqueci minha senha</a>
+          </div>
+        </form>
+        
+        <div class="divider"><span>ou</span></div>
+        
+        <div class="social-buttons">
+          <button class="btn social-btn google-btn">
+            <span class="social-icon">G</span>
+            Continuar com Google
+          </button>
+          <button class="btn social-btn facebook-btn">
+            <span class="social-icon">f</span>
+            Continuar com Facebook
+          </button>
+        </div>
+        
+        <div class="auth-switch">
+          <p>Não tem uma conta? <a href="signup.html" class="text-link">Cadastre-se</a></p>
+        </div>
+      </section>
+    </div>
+  </main>
+  
+  <footer class="footer">
+    <div class="footer-inner">© VivaMundo</div>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>

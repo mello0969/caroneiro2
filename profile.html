@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>VivaMundo — Perfil</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Montserrat:wght@400;600&family=Bebas+Neue&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <a href="index.html" class="logo-link"><img id="site-logo" src="image 1.png" alt="Logo VivaMundo" class="logo-img" style="width: 150px;height:150px"></a>
+    
+  </div>
+  <nav class="nav">    <a href="login.html" class="nav-link">Entrar</a>
+    <a href="index.html" class="nav-link">Início</a>
+    <a href="destaques.html" class="nav-link">Destaques</a>
+    <a href="groups.html" class="nav-link">Grupos</a>
+    <a href="about.html" class="nav-link">Sobre</a>
+    <a href="profile.html" class="nav-link icon-link active" id="nav-profile-link"><img src="image 1.png" alt="perfil" class="icon-small"></a>
+  </nav>
+</header>
+
+<main class="main">
+  <section class="section profile-section">
+    <div class="card profile-card">
+      <div class="profile-row">
+        <div class="avatar-large" id="profile-avatar-large"><img src="image 1.png" alt="avatar" class="avatar-img"></div>
+        <div>
+          <h2 id="profile-name-large">Seu nome</h2>
+          <p id="profile-bio-large" class="muted">Sua bio aparece aqui.</p>
+        </div>
+      </div>
+      <div style="margin-top:12px">
+        <h3>Fotos de viagem</h3>
+        
+      </div>
+    </div>
+    <div class="card">
+      <h3>Editar perfil</h3>
+      <form id="profile-edit-form">
+        <label>Nome</label><input id="edit-name" />
+        
+        <label>Bio</label><textarea id="edit-bio"></textarea>
+        
+        <div style="margin-top:12px"><button class="btn primary" type="submit">Salvar</button></div>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="footer"><div class="footer-inner">© VivaMundo</div></footer>
+<script src="script.js"></script>
+</body>
+</html>

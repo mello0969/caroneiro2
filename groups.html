@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>VivaMundo — Grupos</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Montserrat:wght@400;600&family=Bebas+Neue&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <a href="index.html" class="logo-link"><img id="site-logo" src="img/image 1.png" alt="Logo VivaMundo" class="logo-img" style="width: 150px;height:150px"></a>
+    
+  </div>
+  <nav class="nav">    <a href="login.html" class="nav-link">Entrar</a>
+    <a href="index.html" class="nav-link">Início</a>
+    <a href="destaques.html" class="nav-link">Destaques</a>
+    <a href="groups.html" class="nav-link active">Grupos</a>
+    <a href="about.html" class="nav-link">Sobre</a>
+    <a href="profile.html" class="nav-link icon-link" id="nav-profile-link"><img src="img/image 1.png" alt="perfil" class="icon-small"></a>
+  </nav>
+</header>
+
+<main class="main">
+  <section class="section">
+    <h1>Grupos de Viagem</h1>
+    <div class="row between" style="margin-bottom:12px">
+      <input id="group-search-main" placeholder="Buscar grupos..." style="flex:1;max-width:520px">
+      <button class="btn" id="btn-new-group-main">Criar grupo</button>
+    </div>
+    <div id="groups-main-list" class="grid groups-grid"></div>
+  </section>
+</main>
+
+<footer class="footer"><div class="footer-inner">© VivaMundo</div></footer>
+<script src="script.js"></script>
+</body>
+</html>
